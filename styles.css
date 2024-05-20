@@ -47,12 +47,13 @@ body {
 
 .speaker-grid {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .speaker {
     width: 33%;
+    min-width: 33vw;
     text-align: center;
 }
 
